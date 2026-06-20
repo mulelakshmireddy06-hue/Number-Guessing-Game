@@ -5,7 +5,7 @@ while True:
   guess_ = int(input("Guess the Correct number (1 - 100) : "))
   
   if(guess_ == random_):
-    print("You Guessed a correct number.")
+    print(" Congratulations ! You Guessed a correct number.")
     break
   elif(guess_ < random_):
     print("You Guessed too low")
